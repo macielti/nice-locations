@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  db_brisapix_dev:
+  db_nice_locations_dev:
     image: postgres
     restart: always
     environment:
