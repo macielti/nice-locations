@@ -10,6 +10,6 @@ async function bootstrap() {
   app.setBaseViewsDir(resolve(APP_DIRECTORY, 'views'));
   app.useStaticAssets(resolve(APP_DIRECTORY, 'public'));
 
-  await app.listen(3000);
+  await app.listen(9876);
 }
 bootstrap();
